@@ -7,6 +7,11 @@
 	vertical-align: middle; /* CSS property: vertical-align */
 } /* End of CSS rule block */
 
+body {
+  background-image: url(2.jpg); /*Adds a background image sourced through a url */
+  background-position: center; /*Positions the Background image */
+}
+
 .column { /* Class selector */
 	text-align: center; /* CSS property: text-align */
 	margin-top: 50px; /* CSS property: margin-top */
@@ -39,7 +44,7 @@
 } /* End of CSS rule block */
 
 header { /* Element selector */
-  background-color: #434a53; /* CSS property: background-color */
+  background-color: grey; /* CSS property: background-color */
   color: #ffffff; /* CSS property: color */
   padding: 16px 32px; /* CSS property: padding */
   position: sticky; /* CSS property: position */
@@ -70,4 +75,3 @@ footer { /* Element selector */
 		max-width: 25%; /* CSS property: max-width */
 	} /* End of CSS rule block */
 } /* End of CSS rule block */
-

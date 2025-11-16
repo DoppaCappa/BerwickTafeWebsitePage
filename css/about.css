@@ -8,6 +8,11 @@ p { /* Element selector */
   font-size: 18px; /* CSS property: font-size */
 } /* End of CSS rule block */
 
+body {
+  background-image: url(2.jpg);
+  background-position: center;
+}
+
 main > div { /* CSS selector */
   background-color: #E3DFDE; /* CSS property: background-color */
   border-radius: 10px; /* CSS property: border-radius */

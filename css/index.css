@@ -2,10 +2,17 @@ h2 { /* Selects all <h2> heading elements on the page */
   display: none; /* Hide those headings so they do not take up space or show visually */
 } /* End of rules for h2 */
 
-h3 { 
-  text-align: center;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: black;
+body {
+  background-image: url(2.jpg); /*Adds a background image sourced through a url */
+  background-position: center; /*Positions the Background image */
+}
+
+h3 { /* Selects all <h3> heading elemetns on the page */
+  text-align: center; /* Aligns the text */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /*Selects the font family for the text */
+  color: white; /*Selects the color for the font */
+  text-emphasis-color: calc(25%); /*Selects the emphasis used on the text */
+  text-shadow: 1px 1px 2px black, 0 0 25px darkgreen, 0 0 5px greenyellow; /*Selects the shadow and effect for the text */
 }
 p { /* Selects all paragraph (<p>) elements */
   text-align: center; /* Center the inline text inside each paragraph */
@@ -28,8 +35,9 @@ aside a { /* Selects <a> links that are inside an <aside> */
 } /* End of rules for aside a */
 
 aside a:hover { /* Selects aside links when the mouse pointer is over them */
-  background-color: rgb(165, 231, 165); /* Change the background to red on hover to show visual feedback */
+  background-color: rgb(137, 197, 137); /* Change the background to red on hover to show visual feedback */
   color: white; /* Make the text white while hovered for contrast */
+  transition: background-color 1s ease-out, transform 1s ease-out; /* Creates a hover transition effect */
 } /* End of rules for aside a:hover */
 
 .hero { /* Selects elements with class="hero" (usually a large banner area) */

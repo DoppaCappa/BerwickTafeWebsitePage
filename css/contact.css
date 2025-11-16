@@ -8,6 +8,11 @@ main { /* Element selector */
   text-align: justify; /* CSS property: text-align */
 } /* End of CSS rule block */
 
+body {
+  background-image: url(2.jpg);
+  background-position: center;
+}
+
 h2 { /* Element selector */
   margin: 24px 0 16px 0; /* CSS property: margin */
   font-weight: 700; /* CSS property: font-weight */
