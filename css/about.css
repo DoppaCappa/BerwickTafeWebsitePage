@@ -39,7 +39,7 @@ main > div > a:focus { /* Pseudo-class or element selector */
 
 #container1{ /* ID selector */
   background-color: #fafafa; /* CSS property: background-color */
-  color: 2d2d2d; /* CSS property: color */
+  color: #2d2d2d; /* CSS property: color */
   grid-area: area1; /* CSS property: grid-area */
   text-align: justify; /* CSS property: text-align */
 } /* End of CSS rule block */
@@ -47,21 +47,21 @@ main > div > a:focus { /* Pseudo-class or element selector */
 #container2 { /* ID selector */
   grid-area: area2; /* CSS property: grid-area */
   background-color: #fafafa; /* CSS property: background-color */
-  color: 2d2d2d; /* CSS property: color */
+  color: #2d2d2d; /* CSS property: color */
   text-align: justify; /* CSS property: text-align */
 } /* End of CSS rule block */
 
 #container3 { /* ID selector */
   grid-area: area3; /* CSS property: grid-area */
   background-color: #fafafa; /* CSS property: background-color */
-  color: 2d2d2d; /* CSS property: color */
+  color: #2d2d2d; /* CSS property: color */
   text-align: justify; /* CSS property: text-align */
 } /* End of CSS rule block */
 
 #container4 { /* ID selector */
   grid-area: area4; /* CSS property: grid-area */
   background-color: #fafafa; /* CSS property: background-color */
-  color: 2d2d2d; /* CSS property: color */
+  color: #2d2d2d; /* CSS property: color */
   text-align: center; /* CSS property: text-align */
   display: flex; /* CSS property: display */
   flex-direction: column; /* CSS property: flex-direction */
@@ -111,7 +111,6 @@ footer { /* Element selector */
   text-align: center; /* CSS property: text-align */
   font-size: 16px; /* CSS property: font-size */
   width: 100%; /* CSS property: width */
-  position: bottom; /* CSS property: position */
 } /* End of CSS rule block */
 
 figcaption {
